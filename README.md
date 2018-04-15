@@ -7,7 +7,7 @@
 # 目录结构
 ```
 ├── app                         // app目录
-│   ├── assets
+│   ├── assets                  // 静态资源目录
 │   ├── css
 │       ├── component.css       // 组件样式
 │       ├── global.css          // 全局样式
@@ -18,11 +18,11 @@
 │       ├── index.js            // 入口JS
 │       └── main.js             // 页面JS
 │   └── index.html              // HTML页面
-├──
+├── ...
 ```
 
-# webpack编译说明
+# webpack说明
 1. webpack已根据app目录配置好，无需修改app及其子目录结构。
-2. 构建后的页面会放在`dist`目录下，并会将代码里引用的`assets`的资源路径自动替换为相对路径。
+2. 构建后的页面在`dist`目录下，并已将代码里引用的`assets`资源路径自动替换为相对路径。
 
 ![Screen Shot](screenshot.png)
