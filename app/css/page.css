@@ -1,0 +1,41 @@
+.container {
+    background: #f7f7f7;
+}
+.module {
+    width: 100%;
+}
+
+/* title */
+.module-title {
+    font-size: 0.3rem;
+    padding: 0.4rem 0;
+    display: flex;
+    align-items: center;
+}
+.module-title::before {
+    content: '';
+    display: inline-block;
+    width: 0.06rem;
+    height: 0.3rem;
+    background: #ff7c96;
+    margin-right: 0.3rem;
+}
+
+/* form */
+.module-top-form {
+    width: 7rem;
+    height: 2.85rem;
+    margin: 0 auto;
+}
+
+input::-webkit-input-placeholder {
+    color:#ccc;
+}
+
+#submitBtn {
+    display: block;
+    width:100%;
+    height: 0.8rem;
+    background: pink;
+    border: none;
+}
